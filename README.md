@@ -27,7 +27,9 @@ I borrowed some methods from the video series. If you are a beginner and want to
 ## 1. Download images with desired keyword(s) 
 Many scraping methods with Google Search don't work anymore. 
 Icrawler is simple and work. 
+
 *Reference: https://github.com/hellock/icrawler*
+
 *My code: get_images_icrawler.py*
 
 ## 2. Organize and clean images
@@ -49,6 +51,7 @@ Rename images and put them into one folder.
 <p>my code:
 
 `python flow --model cfg/yolov2-tiny-voc-1c.cfg --load bin/yolov2-tiny-voc.weights --train --annotation new_model_data/annotations --dataset new_model_data/images --epoch 300 `
+
 My minimum loss is around *1.3* and stop improving since step 3000.
 
 ## 6. Test your model!!
