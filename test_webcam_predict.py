@@ -1,10 +1,9 @@
 import os
 import cv2
 
-import sys
-sys.path.insert(0, "/Users/Pan/Google Drive/Data Science/darkflow_master")
-#os.chdir("/Users/Pan/Google Drive/Data Science/darkflow_master")
-#print(os.getcwd())
+#import sys
+#sys.path.insert(0, "<your path>/darkflow_master")
+
 from darkflow.net.build import TFNet
 import numpy as np
 import time
