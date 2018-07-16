@@ -67,8 +67,12 @@ I used Iphone to take pictures and record videos for testing.
 It will automatically generate labeled images.
 
 ### Image (Jupyter notebook)
-*My code: test_image_pred.ipynb*
-<p> The first two blocks are added because I had the darkflow not found error for importing TFNET
+*My code: test_image_pred_0.ipynb*
+<p> If you have the darkflow not found error for importing TFNET, try the following
+  
+ `import os`
+ 
+ `os.chdir("<your path>/darkflow_master")`
 <p> The model has higher confidence when the photo has good lighting.
 
 ### Video
